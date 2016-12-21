@@ -94,13 +94,13 @@
     <Folder Include="Activities\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyAppStart.Core\MyAppStart.Core.csproj">
+    <ProjectReference Include="..\MyAppStart.Lib\MyAppStart.Lib.csproj">
       <Project>{9ECFC3E8-92DC-4358-99E8-D343026E1602}</Project>
-      <Name>MyAppStart.Core</Name>
+      <Name>MyAppStart.Lib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\MyAppStart.Mvx\MyAppStart.Mvx.csproj">
+    <ProjectReference Include="..\MyAppStart.Core\MyAppStart.Core.csproj">
       <Project>{528C4176-7F87-46D3-A94C-4A25EDED2EB2}</Project>
-      <Name>MyAppStart.Mvx</Name>
+      <Name>MyAppStart.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

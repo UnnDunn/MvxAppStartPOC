@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using MvvmCross.Core.ViewModels;
-using MyAppStart.Core.Services;
+using MyAppStart.Lib.Services;
 
-namespace MyAppStart.Mvx
+namespace MyAppStart.Core
 {
 	public class MainViewModel : MvxViewModel
 	{

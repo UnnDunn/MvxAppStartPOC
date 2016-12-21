@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using MvvmCross.Platform.Converters;
 
-namespace MyAppStart.Mvx.Converters
+namespace MyAppStart.Core.Converters
 {
 	public class StartCalledValueConverter : MvxValueConverter<bool, string>
 	{

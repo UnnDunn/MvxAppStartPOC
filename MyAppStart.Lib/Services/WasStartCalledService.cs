@@ -1,5 +1,5 @@
-﻿using System;
-namespace MyAppStart.Core.Services
+using System;
+namespace MyAppStart.Lib.Services
 {
 	public class WasStartCalledService : IWasStartCalledService
 	{

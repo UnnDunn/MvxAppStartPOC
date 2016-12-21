@@ -1,8 +1,7 @@
 using MvvmCross.Core.ViewModels;
-using MyAppStart.Core.Services;
-using PlatformMvx = MvvmCross.Platform.Mvx;
+using MyAppStart.Lib.Services;
 
-namespace MyAppStart.Mvx
+namespace MyAppStart.Core
 {
 
 	public class CallStartAppStart : MvxNavigatingObject, IMvxAppStart

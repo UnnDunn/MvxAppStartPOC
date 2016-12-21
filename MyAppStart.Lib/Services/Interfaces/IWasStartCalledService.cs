@@ -1,5 +1,5 @@
 using System;
-namespace MyAppStart.Core.Services
+namespace MyAppStart.Lib.Services
 {
 
 	public interface IWasStartCalledService

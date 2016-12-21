@@ -1,8 +1,7 @@
-﻿using System;
 using Android.Content;
 using MvvmCross.Droid.Platform;
-using MyAppStart.Mvx;
-using PlatformMvx = MvvmCross.Platform.Mvx;
+using MyAppStart.Core;
+
 namespace MyAppStart
 {
 	public class Setup : MvxAndroidSetup
