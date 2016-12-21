@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -8,7 +8,7 @@
     <UseMSBuildEngine>true</UseMSBuildEngine>
     <OutputType>Library</OutputType>
     <RootNamespace>MyAppStart.Core</RootNamespace>
-    <AssemblyName>MyAppStart.Mvx</AssemblyName>
+    <AssemblyName>MyAppStart.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
   </PropertyGroup>
@@ -52,12 +52,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Converters\" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\MyAppStart.Lib\MyAppStart.Lib.csproj">
-      <Project>{9ECFC3E8-92DC-4358-99E8-D343026E1602}</Project>
+    <ProjectReference Include="..\MyAppStart.Core\MyAppStart.Lib.csproj">
+      <Project>{9ecfc3e8-92dc-4358-99e8-d343026e1602}</Project>
       <Name>MyAppStart.Lib</Name>
     </ProjectReference>
   </ItemGroup>

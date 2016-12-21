@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using MvvmCross.Core.ViewModels;
 using MyAppStart.Lib.Services;
 
@@ -12,12 +12,22 @@ namespace MyAppStart.Core
 		public bool WasStartCalled
 		{
 			get { return _wasStartCalled; }
-			set { SetProperty(ref _wasStartCalled, value, nameof(WasStartCalled)); }
+			set { SetProperty(ref _wasStartCalled, value); }
 		}
 
 		public MainViewModel(IWasStartCalledService wasStartCalledService)
 		{
 			_wasStartCalledService = wasStartCalledService;
+		}
+
+		public void Init()
+		{
+			Initalize();
+		}
+
+		private void Initalize()
+		{
+			WasStartCalled = _wasStartCalledService.WasStartCalled;	
 		}
 	}
 

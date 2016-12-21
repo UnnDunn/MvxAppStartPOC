@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using MvvmCross.Platform.Converters;
 
 namespace MyAppStart.Core.Converters
